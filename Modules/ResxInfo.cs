@@ -8,8 +8,16 @@ using System.Xml;
 
 namespace CrossplatformTestToolKit.Modules
 {
+    /// <summary>
+    /// This class is used to contain methods concerning resx info
+    /// </summary>
     public class ResxInfo
     {
+        /// <summary>
+        /// This method is used to get the count of data in a resx translation file
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
         public int GetDataCount(string path)
         {
             string resFilePath = path;
